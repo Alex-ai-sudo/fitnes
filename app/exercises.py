@@ -102,7 +102,7 @@ def person_wrkout(profile):
     for group in template:
         if group in EX:
             ex = random.choice(EX[group])
-            textt += f"{ex['name']} — {ex['sets']}\n   {ex['desc']}\n   Как делатт: {ex['how_to']}\n\n"
+            textt += f"{ex['name']} — {ex['sets']}\n   {ex['desc']}\n   Как делать: {ex['how_to']}\n\n"
 
 
     return textt # light
