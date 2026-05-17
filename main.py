@@ -1,6 +1,6 @@
 from app import create_app
 from app.database import global_init
-from config import Config
+from Config import Config
 
 app = create_app()
 
